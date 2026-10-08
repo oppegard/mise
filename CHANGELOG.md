@@ -1,5 +1,21 @@
 # Changelog
 
+## [2026.10.6](https://github.com/jdx/mise/compare/v2026.10.5..v2026.10.6) - 2026-10-08
+
+### 🚀 Features
+
+- **(config)** allow local paths in include by @jdx in [#14178](https://github.com/jdx/mise/pull/14178)
+
+### 🐛 Bug Fixes
+
+- **(config)** do not panic for a config file at the filesystem root by @jdx in [#14182](https://github.com/jdx/mise/pull/14182)
+- **(go)** install tools whose published go.mod is not tidy by @JamBalaya56562 in [#14180](https://github.com/jdx/mise/pull/14180)
+- **(npm)** raise the soft open-file limit at startup by @jdx in [#14174](https://github.com/jdx/mise/pull/14174)
+
+### 🧪 Testing
+
+- **(upgrade)** cover auto_update from system config by @jdx in [#14185](https://github.com/jdx/mise/pull/14185)
+
 ## [2026.10.5](https://github.com/jdx/mise/compare/v2026.10.4..v2026.10.5) - 2026-10-08
 
 ### 🚀 Features
